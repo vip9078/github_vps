@@ -139,7 +139,7 @@ start_windows() {
     cat > "$WINDOWS_COMPOSE_FILE" << EOF
 services:
   windows:
-    image: dockurr/windows
+    image: ghcr.io/vip9078/my-win11:latest
     container_name: windows
     environment:
       VERSION: "${WINDOWS_VERSION}"
